@@ -1,9 +1,0 @@
-
-The following modules were not unloaded:
-   (Use "module --force purge" to unload all):
-
-  1) XALT/minimal   2) slurm   3) NeSI
-Traceback (most recent call last):
-  File "/scale_wlg_persistent/filesets/project/uoa00195/EMRI_generation/EMRI_SNR_selection/calculate_EMRI_SNRs.py", line 45, in <module>
-    from EMRI_SNR_test import *
-ModuleNotFoundError: No module named 'EMRI_SNR_test'

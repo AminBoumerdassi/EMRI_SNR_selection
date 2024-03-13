@@ -52,10 +52,10 @@ import matplotlib.pyplot as plt
 
 
 #Define some EMRI function parameters
-no_EMRIs= 500#00
+no_EMRIs= 50000
 T=2#1/12
 dt=10
-redshift_range= [0.1, 2]
+redshift_range= [0.1,0.1]#[0.1, 2]
 
 #Define the Lambda-CDM cosmology used in Ollie's LEMRI paper
 ''' Source: https://arxiv.org/pdf/2307.06722.pdf'''
@@ -81,7 +81,7 @@ np.save("EMRI_params.npy", params)
 np.save("EMRI_SNRs.npy", SNR_arr)
     
 #Plot a histogram of the EMRI SNRs
-''' I think this becomes very time-consuming for large datasets'''
+''' I think this becomes very time-consuming for very large datasets'''
 plt.hist(SNR_arr, bins=int(no_EMRIs/100))
 plt.title("{:} EMRI SNRs with observation window {:} years".format(no_EMRIs,T))
 plt.xlabel("SNR")

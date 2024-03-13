@@ -5,6 +5,7 @@
 ##SBATCH --gpus-per-node=A100-1g.5gb:1    # GPU resources required per node e.g. A100:1
 #SBATCH --cpus-per-task=2   # number of CPUs per task (1 by default)
 #SBATCH --mem=16G         # amount of memory per node (1 by default)
+#SBATCH --output=./slurm_outputs/slurm-%j.out
 
 ##SBATCH --qos=debug          # debug QOS for high priority job tests
 
