@@ -1,0 +1,5 @@
+Stats on EMRI SNRs with varying redshifts:
+
+% of EMRIs with SNRs <20: 0.81298
+% of EMRIs with SNRs [20,100]: 0.15652
+% of EMRIs with redshift >100: 0.0305

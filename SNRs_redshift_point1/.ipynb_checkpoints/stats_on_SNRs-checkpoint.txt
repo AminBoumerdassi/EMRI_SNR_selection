@@ -1,0 +1,5 @@
+Stats on EMRI SNRs with fixed redshifts:
+
+% of EMRIs with SNRs <20: 0.28036
+% of EMRIs with SNRs [20,100]: 0.3678
+% of EMRIs with redshift >100: 0.35184
